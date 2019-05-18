@@ -1,6 +1,5 @@
 body {
-    background-image: url("../images/car.jpg");
-    
+    background-image: url("../images/car.jpg");   
 }
 .brand-logo {
     padding-left: 2% !important;
@@ -16,7 +15,7 @@ body {
     padding-bottom: 3% !important;
 }
 /* Removing default styling of input field and adding border */
-input[type="email"],input[type="password"], textarea {
+input[type="email"],input[type="password"] {
     border-bottom: none !important;
     box-shadow: none !important;
     border: 1px solid #d1caca !important;  
@@ -28,14 +27,13 @@ input[type="email"],input[type="password"], textarea {
 input[type="email"]:focus,textarea:focus {
     box-shadow: none !important;
 }
-/* Styling the name and slogan part */
-#textarea1, #textarea2{
-    padding-right: 15% !important;
-    padding-left: 3% !important;
-}
 .my-form {
     border: 2px solid rgb(179, 173, 173);
     margin: 5% !important;
- padding-left: 27% !important;
+    padding-left: 27% !important;
  
+}
+#welcome-div {
+    padding: 2%;
+    display: none;
 }
